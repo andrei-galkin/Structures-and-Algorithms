@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DataStructures
+namespace Structures
 {
     /// <summary>
     /// The original version has been taken from https://geekyisawesome.blogspot.ca/2010/07/c-trie.html

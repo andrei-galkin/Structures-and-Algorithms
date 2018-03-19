@@ -1,4 +1,4 @@
-﻿namespace DataStructures
+﻿namespace Structures
 {
 
     /// <summary>

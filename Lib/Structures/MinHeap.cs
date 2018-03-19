@@ -1,54 +1,56 @@
-﻿namespace Structures
+﻿using System;
+
+namespace Structures
 {
-    public class MinHeap<T>
+    public class MinHeap<T> where T : IComparable
     {
-        private int capacity = 10;
-        private int size = 0;
-        private T[] items = new T[10];
+        private int _capacity = 10;
+        private int _count = 0;
+        private  T[] _items = new T[10];
 
         private int GetLeftChildIndex(int parentIndex) => 2 * parentIndex + 1;
         private int GetRightChildIndex(int parentIndex) => 2 * parentIndex + 2;
         private int GetParentIndex(int childIndex) => (childIndex - 1) /2;
 
-        private T LeftChild(int index) => items[GetLeftChildIndex(index)];
-        private T RightChild(int index) => items[GetRightChildIndex(index)];
-        private T Parent(int index) => items[GetLeftChildIndex(index)];
+        private T LeftChild(int index) => _items[GetLeftChildIndex(index)];
+        private T RightChild(int index) => _items[GetRightChildIndex(index)];
+        private T Parent(int index) => _items[GetParentIndex(index)];
 
-        private bool HasLeftChild(int index) => GetLeftChildIndex(index) < size;
-        private bool HasRightChild(int index) => GetRightChildIndex(index) < size;
+        private bool HasLeftChild(int index) => GetLeftChildIndex(index) < _count;
+        private bool HasRightChild(int index) => GetRightChildIndex(index) < _count;
         private bool HasParent(int index) => GetLeftChildIndex(index) >= 0;
 
         private void Swap(int indexOne, int indexTwo)
         {
-            T temp = items[indexOne];
+            T temp = _items[indexOne];
 
-            items[indexOne] = items[indexTwo];
-            items[indexTwo] = temp;
+            _items[indexOne] = _items[indexTwo];
+            _items[indexTwo] = temp;
         }
 
         private void CheckCapacity()
         {
-            if (size == capacity)
+            if (_count == _capacity)
             {
-                capacity *= 2;
-                T[] newItems = new T[capacity];
+                _capacity *= 2;
+                T[] newItems = new T[_capacity];
             }
         }
 
         public T Peek()
         {
-            if (size == 0) return default(T);
+            if (_count == 0) return default(T);
 
-            return items[0];
+            return _items[0];
         }
 
         public T Poll()
         {
-            if (size == 0) return default(T);
+            if (_count == 0) return default(T);
 
-            T item = items[0];
-            items[0] = items[size - 1];
-            size--;
+            T item = _items[0];
+            _items[0] = _items[_count - 1];
+            _count--;
             HeapifyDown();
             return item;
         }
@@ -56,34 +58,44 @@
         public void Add(T item)
         {
             CheckCapacity();
-            items[size] = item;
-            size++;
+            _items[_count] = item;
+            _count++;
             HeapifyUp();
         }
 
-        public void HeapifyUp()
+        private void HeapifyUp()
         {
-            int index = size - 1;
+            int index = _count - 1;
 
-            while(HasParent(index) && Parent(index) > items[index])
+            while(HasParent(index) && Parent(index).CompareTo(_items[index]) > 0)
             {
                 Swap(GetParentIndex(index), index);
                 index = GetParentIndex(index);
             }           
         }
 
-        public void HeapifyDown()
+        private void HeapifyDown()
         {
             int index = 0;
 
             while (HasLeftChild(index))
             {
                 int smallerChildIndex = GetLeftChildIndex(index);
-                if (HasRightChild(index) && RightChild(index)  items[index])
+                if (HasRightChild(index) && RightChild(index).CompareTo(LeftChild(index)) < 0)
+                {
+                    smallerChildIndex = GetRightChildIndex(index);
+                }
 
+                if(_items[index].CompareTo(_items[smallerChildIndex]) < 0)
+                {
+                    break;
+                }
+                else
+                {
+                    Swap(index, smallerChildIndex);
+                }
 
-                    Swap(GetParentIndex(index), index);
-                index = GetParentIndex(index);
+                index = smallerChildIndex;
             }
         }
     }

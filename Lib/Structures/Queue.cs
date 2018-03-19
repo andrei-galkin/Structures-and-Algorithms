@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 
-namespace DataStructures
+namespace Structures
 {
     public class Queue<T>
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DataStructures
+namespace Structures
 {
     public class HashTable<K, V>
     {
