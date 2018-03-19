@@ -43,6 +43,7 @@
     <Compile Include="HashTable.cs" />
     <Compile Include="KeyValuePair.cs" />
     <Compile Include="LinkedList.cs" />
+    <Compile Include="MinHeap.cs" />
     <Compile Include="Node.cs" />
     <Compile Include="PrefixMatcher.cs" />
     <Compile Include="Stack.cs" />

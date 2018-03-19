@@ -8,6 +8,9 @@ namespace Algorithms
 {
     public class MergeSort
     {
+        /// <summary>
+        /// Merge Sort
+        /// </summary>
         public static void Sort(int[] array)
         {
             int[] temp = new int[array.Length];
@@ -29,7 +32,7 @@ namespace Algorithms
         static public void Merge (int[] array, int[] temp, int midle, int leftStart, int rightEnd)
         {
             int leftEnd = midle;            
-            int rightStart = leftEnd + 1;
+            int rightStart = midle + 1;
 
             int left = leftStart;
             int right = rightStart;

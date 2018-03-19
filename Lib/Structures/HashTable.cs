@@ -102,6 +102,7 @@ namespace DataStructures
                     foreach (KeyValuePair<K, V> value in item)
                     {
                         var index = GetIndex(value.Key, newItems.Length);
+
                         if (newItems[index] == null)
                         {
                             newItems[index] = new LinkedList<KeyValuePair<K, V>>();
