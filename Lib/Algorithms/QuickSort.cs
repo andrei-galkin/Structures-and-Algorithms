@@ -2,6 +2,9 @@
 {
     public class QuickSort
     {
+        /// <summary>
+        /// Quick Sort
+        /// </summary>
         public static void Sort(int[] array)
         {
             Sort(array, 0, array.Length - 1);
@@ -44,10 +47,10 @@
 
         private static void Swap(int[] array, int left, int rigt)
         {
-            int l = array[left];
+            int temp = array[left];
 
             array[left] = array[rigt];
-            array[rigt] = l;
+            array[rigt] = temp;
         }
     }
 }
