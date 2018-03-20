@@ -12,9 +12,9 @@ MinHeap
 MaxHeap
 
 Algorithms: 
-[Bubble Sort](../Structures-and-Algorithms/blob/master/Lib/Algorithms/BubbleSort.cs)
-[Merge Sort](../Structures-and-Algorithms/blob/master/Lib/Algorithms/MergeSort.cs)
-QuickSort : https://github.com/andrei-galkin/Structures-and-Algorithms/blob/master/Lib/Algorithms/QuickSort.cs
+1. [Bubble Sort](../blob/master/Lib/Algorithms/BubbleSort.cs)
+2. [Merge Sort](../blob/master/Lib/Algorithms/MergeSort.cs)
+3. [Quick Sort](../blob/master/Lib/Algorithms/QuickSort.cs)
 
 # How do I get set up?
 
