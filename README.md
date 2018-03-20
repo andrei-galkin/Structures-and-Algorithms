@@ -1,5 +1,6 @@
-# Structures-and-Algorithms
-This basket I dedicate to store my exploration experience of data structures and algorithms on C# language.
+# Structures and Algorithms
+This basket I dedicate to store my exploration experience of data structures and algorithms.
+All code is done on C# language. (Just link this language)
 
 Structures:
 HashTable
@@ -7,6 +8,13 @@ LinkedList
 Queue
 Stack
 Trie
+MinHeap
+MaxHeap
+
+Algorithms: 
+BubbleSort : https://github.com/andrei-galkin/Structures-and-Algorithms/blob/master/Lib/Algorithms/BubbleSort.cs
+MergeSort : https://github.com/andrei-galkin/Structures-and-Algorithms/blob/master/Lib/Algorithms/MergeSort.cs
+QuickSort : https://github.com/andrei-galkin/Structures-and-Algorithms/blob/master/Lib/Algorithms/QuickSort.cs
 
 # How do I get set up?
 
