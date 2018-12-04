@@ -11,10 +11,10 @@ Structures:
 7. [MaxHeap](../master/Lib/Structures/MaxHeap.cs)
 
 Algorithms: 
-1. [Bubble Sort](../master/Lib/Algorithms/BubbleSort.cs) [...](https://en.wikipedia.org/wiki/Bubble_sort)
-2. [Merge Sort](../master/Lib/Algorithms/MergeSort.cs) [...](https://en.wikipedia.org/wiki/Merge_sort)
-3. [Quick Sort](../master/Lib/Algorithms/QuickSort.cs) [...]()
-3. [Radix Sort](../master/Lib/Algorithms/RadixSort.cs) [...]()
+1. [Bubble Sort](../master/Lib/Algorithms/BubbleSort.cs) [more](https://en.wikipedia.org/wiki/Bubble_sort)
+2. [Merge Sort](../master/Lib/Algorithms/MergeSort.cs) [more](https://en.wikipedia.org/wiki/Merge_sort)
+3. [Quick Sort](../master/Lib/Algorithms/QuickSort.cs) [more](https://en.wikipedia.org/wiki/Quicksort)
+3. [Radix Sort](../master/Lib/Algorithms/RadixSort.cs) [read](https://en.wikipedia.org/wiki/Radix_sort)
 
 # How do I get set up?
 
