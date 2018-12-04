@@ -2,13 +2,13 @@
 This basket I dedicate to store my exploration of data structures and algorithms with C# languge.
 
 Structures:
-1. [HashTable](../master/Lib/Structures/HashTable.cs) [...]()
-2. [LinkedList](../master/Lib/Structures/LinkedList.cs) [...]()
-3. [Queue](../master/Lib/Structures/Queue.cs) [...]()
-4. [Stack](../master/Lib/Structures/Stack.cs) [...]()
-5. [Trie](../master/Lib/Structures/Trie.cs) [...]()
-6. [MinHeap](../master/Lib/Structures/MinHeap.cs) [...]()
-7. [MaxHeap](../master/Lib/Structures/MaxHeap.cs) [...]()
+1. [HashTable](../master/Lib/Structures/HashTable.cs) [...](https://en.wikipedia.org/wiki/Hash_table)
+2. [LinkedList](../master/Lib/Structures/LinkedList.cs) [...](https://en.wikipedia.org/wiki/Linked_list)
+3. [Queue](../master/Lib/Structures/Queue.cs) [...](https://en.wikipedia.org/wiki/Queue_(abstract_data_type))
+4. [Stack](../master/Lib/Structures/Stack.cs) [...](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))
+5. [Trie](../master/Lib/Structures/Trie.cs) [...](https://en.wikipedia.org/wiki/Trie)
+6. [MinHeap](../master/Lib/Structures/MinHeap.cs) [...](https://en.wikipedia.org/wiki/Binary_heap)
+7. [MaxHeap](../master/Lib/Structures/MaxHeap.cs) [...](https://en.wikipedia.org/wiki/Binary_heap)
 
 Algorithms: 
 1. [Bubble Sort](../master/Lib/Algorithms/BubbleSort.cs) [...](https://en.wikipedia.org/wiki/Bubble_sort)
