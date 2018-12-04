@@ -14,6 +14,7 @@ Algorithms:
 1. [Bubble Sort](../master/Lib/Algorithms/BubbleSort.cs)
 2. [Merge Sort](../master/Lib/Algorithms/MergeSort.cs)
 3. [Quick Sort](../master/Lib/Algorithms/QuickSort.cs)
+3. [Radix Sort](../master/Lib/Algorithms/RadixSort.cs)
 
 # How do I get set up?
 
