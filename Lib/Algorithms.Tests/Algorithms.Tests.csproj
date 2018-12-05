@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="MergeSortTest.cs" />
     <Compile Include="BubbleSortTests.cs" />
+    <Compile Include="RadixSortTests.cs" />
     <Compile Include="QuickSortTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
