@@ -9,7 +9,8 @@ namespace Algorithms.Tests
         [TestMethod]
         public void WhenWeGiveArray_ThenItIsSorted()
         {
-            int[] array = { 2, 4, 1, 5, 6, 8, 7, 9, 3 };
+            int[] array = { 2, 4, 1, 5, 6, 8, 3, 9, 7 };
+
             RadixSort.Sort(array);
             int i = 1;
 
