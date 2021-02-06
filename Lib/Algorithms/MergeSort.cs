@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Algorithms
+﻿namespace Algorithms
 {
     public class MergeSort
     {
@@ -17,7 +11,7 @@ namespace Algorithms
             Sort(array, temp, 0, array.Length - 1);
         }
 
-        static public void Sort(int[] array, int[] temp, int leftStart, int rightEnd)
+        public static void Sort(int[] array, int[] temp, int leftStart, int rightEnd)
         {
             if (leftStart >= rightEnd)
                 return;
@@ -29,16 +23,16 @@ namespace Algorithms
             Merge(array, temp, midle, leftStart, rightEnd);
         }
 
-        static public void Merge (int[] array, int[] temp, int midle, int leftStart, int rightEnd)
+        public static void Merge(int[] array, int[] temp, int midle, int leftStart, int rightEnd)
         {
-            int leftEnd = midle;            
+            int leftEnd = midle;
             int rightStart = midle + 1;
 
             int left = leftStart;
             int right = rightStart;
             int index = leftStart;
 
-            int size = rightEnd - leftStart + 1;            
+            int size = rightEnd - leftStart + 1;
 
             while (left <= leftEnd && right <= rightEnd)
             {
