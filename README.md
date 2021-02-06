@@ -14,7 +14,9 @@ Algorithms:
 1. [Bubble Sort](../master/Lib/Algorithms/BubbleSort.cs) [...](https://en.wikipedia.org/wiki/Bubble_sort)
 2. [Merge Sort](../master/Lib/Algorithms/MergeSort.cs) [...](https://en.wikipedia.org/wiki/Merge_sort)
 3. [Quick Sort](../master/Lib/Algorithms/QuickSort.cs) [...](https://en.wikipedia.org/wiki/Quicksort)
-3. [Radix Sort](../master/Lib/Algorithms/RadixSort.cs) [...](https://en.wikipedia.org/wiki/Radix_sort)
+4. [Radix Sort](../master/Lib/Algorithms/RadixSort.cs) [...](https://en.wikipedia.org/wiki/Radix_sort)
+5. [Recucion](../master/Lib/Recursion/Fibonacci.cs) [...](https://en.wikipedia.org/wiki/Recursion_(computer_science))
+6. [Tail Recursion](../master/Lib/Recursion/TailRecursionFibonacci.cs) [...](https://en.wikipedia.org/wiki/Tail_call)
 
 # How do I get set up?
 

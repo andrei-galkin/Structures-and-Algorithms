@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="MergeSortTest.cs" />
     <Compile Include="BubbleSortTests.cs" />
+    <Compile Include="RecursionTests.cs" />
     <Compile Include="RadixSortTests.cs" />
     <Compile Include="QuickSortTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -62,6 +63,10 @@
     <ProjectReference Include="..\Algorithms\Algorithms.csproj">
       <Project>{f586f2b6-7759-496f-b18d-423c5feafae3}</Project>
       <Name>Algorithms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Recursion\Recursion.csproj">
+      <Project>{F4785D15-772A-47BE-9A1F-FF2085571ED8}</Project>
+      <Name>Recursion</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

@@ -62,6 +62,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Recursion\Recursion.csproj">
+      <Project>{F4785D15-772A-47BE-9A1F-FF2085571ED8}</Project>
+      <Name>Recursion</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Structures\Structures.csproj">
       <Project>{7dac9fea-67e2-4468-a3a2-e3bed1f4b5dd}</Project>
       <Name>Structures</Name>
